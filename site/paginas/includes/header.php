@@ -4,7 +4,7 @@
     <head>       
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>AdminLTE 3 | 404 Page not found</title>
+        <title>SENAC - Sala de Estudos Interativa</title>
 
         <!--Plugin bootstrap ofc-->
         <link rel="stylesheet" href="site/plugins/bootstrap/css/bootstrap.min.css" />
