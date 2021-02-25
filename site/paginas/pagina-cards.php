@@ -1,7 +1,3 @@
-<!-- /.navbar -->
-
-<!--fim da navbar--> 
-
 <div class="paginacards">
     <div class="container" style="background-color: white">
 
