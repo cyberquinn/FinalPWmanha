@@ -16,6 +16,26 @@
 CREATE DATABASE IF NOT EXISTS `bloginterativo` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `bloginterativo`;
 
+-- Copiando estrutura para tabela bloginterativo.arquivosvalidados
+CREATE TABLE IF NOT EXISTS `arquivosvalidados` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(50) NOT NULL,
+  `artigo` longtext NOT NULL,
+  `sobrenome` varchar(50) NOT NULL,
+  `usuario` enum('aluno','ex-aluno','professor') NOT NULL,
+  `mensagem` longtext,
+  `curso` varchar(50) NOT NULL,
+  `instituicao` varchar(50) NOT NULL,
+  `linkVideo` varchar(50) NOT NULL,
+  `linkImagem` varchar(50) NOT NULL,
+  `categoria` enum('artes','beleza','comercio','conservacaoezeladoria','design','educacional','gastronomia','gestao','hospedagem','idiomas','informatica','lazer','meioambiente','moda','saude','seguranca','turismo','comunicacao') NOT NULL,
+  `titulo` varchar(50) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Exportação de dados foi desmarcado.
+
 -- Copiando estrutura para tabela bloginterativo.contato
 CREATE TABLE IF NOT EXISTS `contato` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -37,12 +57,9 @@ CREATE TABLE IF NOT EXISTS `facavocemesmo` (
   `artigo` longtext NOT NULL,
   `sobrenome` varchar(50) NOT NULL,
   `usuario` enum('aluno','ex-aluno','professor') NOT NULL,
-  `localidade` varchar(50) NOT NULL,
   `mensagem` longtext,
   `curso` varchar(50) NOT NULL,
   `instituicao` varchar(50) NOT NULL,
-  `dataCriacao` timestamp NOT NULL,
-  `dataAtualizacao` timestamp NOT NULL,
   `linkVideo` varchar(50) NOT NULL,
   `linkImagem` varchar(50) NOT NULL,
   `categoria` enum('artes','beleza','comercio','conservacaoezeladoria','design','educacional','gastronomia','gestao','hospedagem','idiomas','informatica','lazer','meioambiente','moda','saude','seguranca','turismo','comunicacao') NOT NULL,
