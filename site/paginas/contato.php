@@ -36,7 +36,7 @@
 
 
                                 <div class="col-4">
-                                    <img src="site/dist/img/IMGCONTATO.jpg" alt="" class="img-bordered img-fluid mt-5"/>  
+                                    <img src="site/assets/img/contato.jpeg" alt="" class="img-bordered img-fluid mt-5"/>  
                                 </div>
 
                                 <div class="col-8">

@@ -79,7 +79,7 @@ foreach ($dados as $dado) {
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" placeholder="<?php echo $dado['artigo']; ?>" disabled=""></textarea>
             </div>
 
-            <a href="pg=inicial"><button type="submit" class="btn btn-primary btn-block"><i class="fas fa-plus" ></i> Validar Artigo </button></a>
+            <a href="?pg=inicial"><button type="submit" class="btn btn-primary btn-block"><i class="fas fa-plus" ></i> Validar Artigo </button></a>
 
         </div>
     </form>

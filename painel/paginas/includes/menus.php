@@ -16,19 +16,12 @@
                <h4> <a href="?pg=tabela-artigo" class="nav-link">Solicitação dos Artigos</a></h4>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-              <h4> <a href="?pg=login" class="nav-link text-left text-right">Sair</a></h4> 
+              <h4> <a href="index.php?pg=inicial" class="nav-link text-left text-right">Sair</a></h4> 
             </li>
         </div>
 
 
     </ul>
-
-    <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-
-        </li>
-
-    </ul>
 </nav>
-<!-- /.navbar -->
+
+ 
