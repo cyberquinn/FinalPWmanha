@@ -29,7 +29,7 @@ if ($pg) {
 
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
-            include_once 'site/paginas/artigomenu.php';
+            include_once 'site/paginas/artigosmenu.php';
             include_once 'site/paginas/includes/footer.php';
 
             break;
