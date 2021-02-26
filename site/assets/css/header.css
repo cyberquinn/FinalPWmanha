@@ -10,12 +10,17 @@
     font-family: "Sanchez";
 
 }
+
+.menuuuu{
+    margin-left: 60px;
+}
+
 .menuprincipal i{
     font-size: 20px;
     margin: 0auto;
 }
 .senacpe{
-    margin-left: 120px;
+    margin-left: 150px;
     width: 150px;
 }
 
@@ -29,7 +34,6 @@
 body {
     background-color: white;
     font-family: "Sanchez";
-    
 
 }
 

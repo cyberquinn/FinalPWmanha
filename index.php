@@ -8,7 +8,6 @@ include_once 'painel/helper/funcoes.php';
 
 $pg = isset($_GET['pg']);
 
-
 if ($pg) {
 
 //P�?GINA INDEX DO SITE
@@ -17,14 +16,13 @@ if ($pg) {
 
 //        Responsável Laura - paginacards
         case 'inicial':
-
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
             include_once 'site/paginas/pagina-cards.php';
             include_once 'site/paginas/includes/footer.php';
 
             break;
-        
+
         case 'artigos-menu':
 
             include_once 'site/paginas/includes/header.php';
@@ -35,10 +33,9 @@ if ($pg) {
             break;
 
         case 'pagina-artigos':
-            $id = $_GET ['id'];
 
             $resultDados = new conexao();
-            $dados = $resultDados->selecionaDados('SELECT *  FROM facavocemesmo WHERE id = ' . $id);
+            $dados = $resultDados->selecionaDados('SELECT *  FROM facavocemesmo');
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
             include_once 'site/paginas/pagina-artigos.php';
@@ -53,22 +50,22 @@ if ($pg) {
             include_once 'site/paginas/includes/menus.php';
             if ($_SERVER ['REQUEST_METHOD'] == 'POST') {
 //                pegando variaveis via post
-                $nome = $_POST['nome'];
-                $email = $_POST['email'];
-                $curso = $_POST['curso'];
-                $mensagem = $_POST['mensagem'];
+                $nomecompleto = $_POST ['nomecompleto'];
+                $email = $_POST ['email'];
+                $curso = $_POST ['curso'];
+                $mensagem = $_POST ['mensagem'];
 //                tratar os dados enviados via post
                 $parametros = array(''
-                    . ':nome' => $nome,
+                    . ':nomecompleto' => $nomecompleto,
                     ':email' => $email,
                     ':curso' => $curso,
                     ':mensagem' => $mensagem,
                 );
                 $resultDados = new conexao();
                 $resultDados->intervencaoNoBanco('INSERT INTO '
-                        . 'contato (nome, email, curso, mensagem) '
-                        . 'VALUES (:nome, :email, :curso, :mensagem)', $parametros);
-                include_once 'painel/paginas/contato.php';
+                        . 'contato (nomecompleto, email, curso, mensagem) '
+                        . 'VALUES (:nomecompleto, :email, :curso, :mensagem)', $parametros);
+                include_once 'site/paginas/contato.php';
             } else {
                 include_once 'site/paginas/contato.php';
             }
@@ -128,8 +125,7 @@ if ($pg) {
                         . 'VALUES (:categoria, :usuario, :titulo, '
                         . ':sobrenome, :nome, :email, '
                         . ':curso, :instituicao, :linkVideo, '
-                        . ':linkImagem, :artigo)', 
-                        $parametros);
+                        . ':linkImagem, :artigo)', $parametros);
                 include_once 'site/paginas/pagina-cards.php';
             } else {
                 include_once 'site/paginas/faca-voce-mesmo.php';

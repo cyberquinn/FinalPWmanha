@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS `facavocemesmo` (
   `sobrenome` varchar(50) NOT NULL,
   `usuario` enum('aluno','ex-aluno','professor') NOT NULL,
   `localidade` varchar(50) NOT NULL,
+  `mensagem` longtext,
   `curso` varchar(50) NOT NULL,
   `instituicao` varchar(50) NOT NULL,
   `dataCriacao` timestamp NOT NULL,
@@ -48,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `facavocemesmo` (
   `titulo` varchar(50) NOT NULL,
   `email` varchar(60) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 -- Exportação de dados foi desmarcado.
 

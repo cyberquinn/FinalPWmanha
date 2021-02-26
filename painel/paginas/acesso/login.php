@@ -1,4 +1,4 @@
-        
+        <br />
         <div class="login-box m-auto mt-5 mb-5">
             <!-- /.login-logo -->
             <div class="card card-outline card-primary">
@@ -8,7 +8,7 @@
                 <div class="card-body">
                     <p class="login-box-msg">Entre com seus dados de acesso</p>
 
-                    <form action="?pg=inicio-site" method="post">
+                    <form action="painel.php?pg=dashboard" method="post">
                         <div class="input-group mb-3">
                             <input name="usuario" type="text" class="form-control" placeholder="Usuário">
                             <div class="input-group-append">
@@ -32,7 +32,7 @@
                         </div>
                     </form>
                     <div class="social-auth-links text-center mt-2 mb-3">
-                        <a href="index.php?pg=inicio-site" class="btn btn-block btn-danger">Voltar ao site</a>
+                        <a href="index.php?pg=inicio-site" class="btn btn-block bg-orange text-light">Voltar ao site</a>
                     </div>
                 </div>
                 <!-- /.card-body -->
