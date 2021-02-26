@@ -6,9 +6,8 @@ include_once 'painel/helper/funcoes.php';
 
 
 
+
 $pg = isset($_GET['pg']);
-
-
 
 if ($pg) {
 
@@ -18,7 +17,6 @@ if ($pg) {
 
 //        Responsável Laura - paginacards
         case 'inicial':
-
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
             include_once 'site/paginas/pagina-cards.php';
@@ -53,13 +51,13 @@ if ($pg) {
             include_once 'site/paginas/includes/menus.php';
             if ($_SERVER ['REQUEST_METHOD'] == 'POST') {
 //                pegando variaveis via post
-                $nomecompleto = $_POST['nomecompleto'];
-                $email = $_POST['email'];
-                $curso = $_POST['curso'];
-                $mensagem = $_POST['mensagem'];
+                $nomecompleto = $_POST ['nomecompleto'];
+                $email = $_POST ['email'];
+                $curso = $_POST ['curso'];
+                $mensagem = $_POST ['mensagem'];
 //                tratar os dados enviados via post
                 $parametros = array(''
-                    . ':nome' => $nome,
+                    . ':nomecompleto' => $nomecompleto,
                     ':email' => $email,
                     ':curso' => $curso,
                     ':mensagem' => $mensagem,
@@ -68,7 +66,7 @@ if ($pg) {
                 $resultDados->intervencaoNoBanco('INSERT INTO '
                         . 'contato (nomecompleto, email, curso, mensagem) '
                         . 'VALUES (:nomecompleto, :email, :curso, :mensagem)', $parametros);
-                include_once 'painel/paginas/contato.php';
+                include_once 'site/paginas/contato.php';
             } else {
                 include_once 'site/paginas/contato.php';
             }

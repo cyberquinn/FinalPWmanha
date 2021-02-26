@@ -1,4 +1,154 @@
 <?php
+foreach ($dados as $dado) {
+    
+}
+?>
+
+
+    <div class="container mt-5">
+        <h1 class="text-center pb-2"><b>Faça você mesmo</b></h1>
+        <div class="form w-75 h-50 mx-auto ">
+            <div class="row justify-content-center">
+                <div class="col-6">
+
+                    <div class="form-group">
+                        <span class="reg-user"></span>  
+                        <label for="exampleFormControlInput1"><b>Nome: </b></label>
+                        <br />
+                      <?php echo $dado['nome']; ?>
+
+                    </div>
+                    <div class="-group">
+                        <span class="reg-location1"></span>  
+                        <label for="exampleFormControlInput1"><b>Sobrenome:</b></label>
+                        <br />
+                     <?php echo $dado['sobrenome']; ?>
+                    </div>
+                </div>
+                <div class="col-6">
+
+                    <div class="form-group">
+                        <span class="reg-user-group"></span>
+                        <label for="exampleFormControlSelect1"><b>Usuário:</b></label>
+                        <br />
+                     <?php echo $dado['usuario']; ?>
+                    </div>
+                    <div class="form-group ">
+                        <span class="reg-office"></span>
+                        <label for="exampleFormControlInput1"><b>Curso/Instituição:</b></label>
+                        <span class="manu-document"></span>
+                        <br />
+                       <?php echo $dado['curso']; ?> / <?php echo $dado['instituição']; ?>
+                    </div> 
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="card ess mt-4">
+
+                <div class="card-body">
+                    <h5 class="card-title">Video</h5>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Link do vÃ­deo:</label>
+                        <br /> 
+                        <?php
+                        foreach ($dados as $dado) {
+                            echo $dado['linkVideo'] . '<br>';
+                        }
+                        ?>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col ">
+                    <div class="form-group text">
+                        <span class="reg-book-reference"></span>
+                        <label for="exampleFormControlTextarea1"><b>Exemplo de textarea:</b></label>
+                        <br />
+                        <?php
+                        foreach ($dados as $dado) {
+                            echo $dado['artigo'] . '<br>';
+                        }
+                        ?>
+                    </div>
+                </div>
+                <div class="col mt-4">
+                    <img class="img-fluid"src="https://placehold.it/400x500" alt=""/>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="" class="btn btn-dark btn-block mt-3">Confirmar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<input type="submit" value="" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
 
 include_once 'painel/bd/conexao.php';
 include_once 'painel/helper/funcoes.php';
@@ -28,6 +178,10 @@ if ($pg) {
             break;
 
         case 'tabela-artigo':
+            $id = $_GET ['id'];
+
+            $resultDados = new conexao();
+            $dados = $resultDados->selecionaDados('SELECT *  FROM facavocemesmo WHERE id = ' . $id);
             include_once 'painel/paginas/includes/header.php';
             include_once 'painel/paginas/includes/menus.php';
             include_once 'painel/paginas/validar-artigo.php';
@@ -81,7 +235,6 @@ if ($pg) {
                         . ':sobrenome, :nome, :email, '
                         . ':curso, :instituicao, :linkVideo, '
                         . ':linkImagem, :artigo)', $parametros);
-                
                 include_once 'painel/paginas/validar-artigo.php';
             } else {
 
@@ -97,32 +250,7 @@ if ($pg) {
             include_once 'painel/paginas/contato.php';
             include_once 'painel/paginas/includes/footer.php';
             break;
-        
-        case 'vizualizar-contato':
-            $id = $_GET ['id'];
 
-            $resultDados = new conexao();
-            $dados = $resultDados->selecionaDados('SELECT *  FROM contato WHERE id = ' . $id);
-            include_once 'painel/paginas/includes/header.php';
-            include_once 'painel/paginas/includes/menus.php';
-            include_once 'painel/paginas/vizualizar-contato.php';
-            include_once 'painel/paginas/includes/footer.php';
-            break;
-        
-        case 'excluir-contato' :
-            $parametros = array(
-                ':id' => $_GET ['id'],
-            );
-            $resultDados = new conexao();
-            $resultDados->intervencaoNoBanco(''
-                    . 'DELETE FROM contato WHERE id = :id', $parametros);
-            header('Location: ?pg=painel-contato');
-            break;
-        
-        
-        
-        
-        
         default:
             include_once 'painel/paginas/includes/header.php';
             include_once 'painel/paginas/includes/menus.php';
@@ -137,4 +265,5 @@ if ($pg) {
     include_once 'site/paginas/includes/erro.php';
     include_once 'site/paginas/includes/footer.php';
 }
+
 

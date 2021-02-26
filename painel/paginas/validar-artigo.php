@@ -2,6 +2,7 @@
 $resultDados = new Conexao();
 $dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
 ?>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -47,8 +48,7 @@ $dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
                                         <td class="text-center">
                                             <!--vizualiza-->
                                             <a href="?pg=validar-artigo&id=<?php echo $dado['id']; ?>" class="btn btn-success"><span class="fa fa-eye"></span></a>
-                                            |
-                                            <a href="?pg=validar-artigo&id=<?php echo $dado['id']; ?>" class="btn btn-success"><span class="fas fa-android"></span>ok</a>
+     
                                         </td>
                                     </tr>
                                     <?php

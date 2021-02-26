@@ -51,23 +51,16 @@
                                             <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleFormControlSelect1"><span class="badge badge-info">Curso</span></label>
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                                <option>Programador Web</option>
-                                                <option>Análise e Desenvolvimento de Sistemas</option>
-                                                <option>Programador de Redes</option>
-                                                <option>MedioTec</option>
-                                            </select>
+                                            <label for="exampleInputEmail1"><span class="badge badge-info">Curso</span></label>
+                                            <input type="text" name="curso" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Curso">
+                                            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleFormControlTextarea1"><span class="badge badge-info">Mensagem</span></label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            <textarea class="form-control" name="mensagem" id="exampleFormControlTextarea1" rows="3"></textarea>
                                         </div>
-                                        <div class="form-group form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-                                        </div>
-                                        <a href="?pg=painel-contato"> <button type="submit" class="btn btn-outline-primary btn-tool">Enviar</button> </a>
+                                     
+                                        <a href="painel.php?pg=painel-contato"> <button type="submit" class="btn btn-outline-primary btn-tool">Enviar</button> </a>
                                     </form>
                                 </div>
                             </div>

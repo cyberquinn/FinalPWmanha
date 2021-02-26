@@ -1,4 +1,4 @@
-        
+        <br />
         <div class="login-box m-auto mt-5 mb-5">
             <!-- /.login-logo -->
             <div class="card card-outline card-primary">
@@ -32,7 +32,7 @@
                         </div>
                     </form>
                     <div class="social-auth-links text-center mt-2 mb-3">
-                        <a href="index.php?pg=inicio-site" class="btn btn-block btn-danger">Voltar ao site</a>
+                        <a href="index.php?pg=inicio-site" class="btn btn-block bg-orange text-light">Voltar ao site</a>
                     </div>
                 </div>
                 <!-- /.card-body -->
