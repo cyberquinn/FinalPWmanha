@@ -8,8 +8,6 @@ include_once 'painel/helper/funcoes.php';
 
 $pg = isset($_GET['pg']);
 
-
-
 if ($pg) {
 
 //P�?GINA INDEX DO SITE
@@ -18,7 +16,6 @@ if ($pg) {
 
 //        Responsável Laura - paginacards
         case 'inicial':
-
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
             include_once 'site/paginas/pagina-cards.php';
@@ -30,7 +27,7 @@ if ($pg) {
 
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
-            include_once 'site/paginas/artigomenu.php';
+            include_once 'site/paginas/artigosmenu.php';
             include_once 'site/paginas/includes/footer.php';
 
             break;
@@ -53,22 +50,22 @@ if ($pg) {
             include_once 'site/paginas/includes/menus.php';
             if ($_SERVER ['REQUEST_METHOD'] == 'POST') {
 //                pegando variaveis via post
-                $nome = $_POST['nome'];
-                $email = $_POST['email'];
-                $curso = $_POST['curso'];
-                $mensagem = $_POST['mensagem'];
+                $nomecompleto = $_POST ['nomecompleto'];
+                $email = $_POST ['email'];
+                $curso = $_POST ['curso'];
+                $mensagem = $_POST ['mensagem'];
 //                tratar os dados enviados via post
                 $parametros = array(''
-                    . ':nome' => $nome,
+                    . ':nomecompleto' => $nomecompleto,
                     ':email' => $email,
                     ':curso' => $curso,
                     ':mensagem' => $mensagem,
                 );
                 $resultDados = new conexao();
                 $resultDados->intervencaoNoBanco('INSERT INTO '
-                        . 'contato (nome, email, curso, mensagem) '
-                        . 'VALUES (:nome, :email, :curso, :mensagem)', $parametros);
-                include_once 'painel/paginas/contato.php';
+                        . 'contato (nomecompleto, email, curso, mensagem) '
+                        . 'VALUES (:nomecompleto, :email, :curso, :mensagem)', $parametros);
+                include_once 'site/paginas/contato.php';
             } else {
                 include_once 'site/paginas/contato.php';
             }

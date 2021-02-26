@@ -26,14 +26,14 @@ foreach ($dados as $dado) {
 
         <div class="row">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="" allowfullscreen><?php echo $dado['video']; ?></iframe>
+                <iframe class="embed-responsive-item" src="" allowfullscreen><?php echo $dado['linkVideo']; ?></iframe>
             </div>
         </div>
 
         <div class="row">
 
             <div class="col w-auto ">
-                <img class="rounded float-left img-thumbnail mr-2 mb-2" src="<?php echo $dado['imagem']; ?>" alt="Imagem de artigo">
+                <img class="rounded float-left img-thumbnail mr-2 mb-2" src="<?php echo $dado['linkImagem']; ?>" alt="Imagem de artigo">
                 <div>
                     <p class="text-justify"> <?php echo $dado['artigo']; ?></p>
                 </div> 
