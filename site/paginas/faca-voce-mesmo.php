@@ -1,10 +1,12 @@
 <div class="container mt-2">
     <h1 class="text-center">Faça você mesmo</h1>
     <form action="?pg=faca-voce-mesmo" method="POST">
-        <div class="form w-75 h-50 mx-auto ">
+        <div class="form w-75 h-50 mx-auto  ">
 
-            <div class="row">
+            <div class="row ml-auto">
+
                 <div class="form-group">
+                    <span class="reg-mouse"></span>
                     <select class="form-control" id="exampleFormControlSelect1" name="categoria">
                         <option>Categoria</option>
                         <option>Artes</option>
@@ -29,13 +31,12 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row ml-auto">
                 <div class="form-group">
-                    <span class="reg-user"></span>                                        
+                    <span class="reg-file-text2"></span>                                        
                     <input type="text" name="titulo" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="Título">
                 </div>
             </div>
-
             <div class="row">
                 <div class="col">
                     <div class="form-group">
@@ -45,13 +46,13 @@
                 </div>
                 <div class="col">
                     <div class="form-group">
-                        <span class="reg-user"></span>  
+                        <span class="reg-user-check"></span>  
                         <input type="text" name="nome" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="Nome">
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-group">
-                        <span class="reg-user"></span>  
+                        <span class="reg-mail1"></span>  
                         <input type="email" name="email" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="usuario@email.com">
                     </div>
                 </div>
@@ -60,18 +61,19 @@
             <div class="row">
                 <div class="col">
                     <div class="form-group">
-                        <span class="reg-user"></span>  
+                        <span class="reg-books"></span>  
                         <input type="text" name="curso" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="Curso">
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-group">
-                        <span class="reg-user"></span>  
+                        <span class="reg-office"></span>  
                         <input type="text" name="instituicao" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="Instituição">
                     </div>
                 </div>
-                <div class="col">
+                <div class="col ">
                     <div class="form-group">
+                        <span class="reg-user-tie"></span>
                         <select name="usuario" class="form-control" id="exampleFormControlSelect1">
                             <option>Selecione</option>
                             <option>Aluno</option>
@@ -83,17 +85,17 @@
             </div>
 
             <div class="form-group">
-                <span class="reg-user"></span>                                        
+                <span class="reg-youtube"></span>                                        
                 <input type="text" name="linkVideo" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="Link Video">
             </div>
 
             <div class="form-group  ">
-                <span class="reg-user"></span>                                        
+                <span class="reg-photo"></span>                                        
                 <input type="text" name="linkImagem" class="form-control" autofocus="" id="exampleFormControlInput1" placeholder="Arquivo Imagem">
             </div>
 
             <div class="form-group">
-                <span class="reg-user"></span>                                          
+                <span class="reg-file-text"></span>                                          
                 <textarea class="form-control" name="artigo" id="exampleFormControlTextarea1" rows="20" placeholder="Artigo (máximo 15.000 caracteres)"></textarea>
             </div>
 
@@ -103,6 +105,8 @@
     </form>
     <br />
 </div>
+
+
 
 
 
