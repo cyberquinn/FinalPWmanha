@@ -6,7 +6,6 @@ include_once 'painel/helper/funcoes.php';
 
 
 
-
 $pg = isset($_GET['pg']);
 
 if ($pg) {
