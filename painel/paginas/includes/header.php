@@ -33,6 +33,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <link rel="stylesheet" href="../../../painel/plugins/fontawesome-free/css/all.min.css">
                     <!-- Theme style -->
                     <link rel="stylesheet" href="../../../painel/dist/css/adminlte.min.css">
-                    <!-- Cor no input -->
-                    <link rel="stylesheet" href="../../../painel/assets/css/disabled.css">
+                    
+                    <!--Css Vini Páginas Validar Artigo-->
+                    <link rel="stylesheet" href="painel/assets/css/vini-validar-artigo.css" />
                 </head>

@@ -19,8 +19,6 @@
               <h4> <a href="index.php?pg=inicial" class="nav-link text-left text-right">Sair</a></h4> 
             </li>
         </div>
-
-
     </ul>
 </nav>
 
