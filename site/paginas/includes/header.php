@@ -39,6 +39,12 @@
         <link rel="stylesheet" href="painel/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="site/plugins/fontawesome-free/css/all.min.css">
+        
+        <!--link do footer-->
+        <link rel="stylesheet" href="site/assets/css/footer.css" />
+        
+        <!--link Botao TOP-->
+        <link rel="stylesheet" href="assets/css/btnTOPO.css" />
     </head>
     <body>
 
