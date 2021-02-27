@@ -36,7 +36,7 @@ if ($pg) {
         case 'pagina-artigos':
 
             $resultDados = new conexao();
-            $dados = $resultDados->selecionaDados('SELECT *  FROM facavocemesmo');
+            $dados = $resultDados->selecionaDados('SELECT *  FROM arquivosvalidados');
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
             include_once 'site/paginas/pagina-artigos.php';
@@ -135,13 +135,6 @@ if ($pg) {
 
             break;
 
-        case 'login':
-            include_once 'site/paginas/includes/header.php';
-            include_once 'site/paginas/includes/menus.php';
-            include_once 'painel/paginas/acesso/login.php';
-            include_once 'site/paginas/includes/footer.php';
-            break;
-
         case 'validar-artigo':
             $resultDados = new conexao ();
             $dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
@@ -177,6 +170,13 @@ if ($pg) {
             include_once 'site/paginas/result-pesquisar.php';
             include_once 'site/paginas/includes/footer.php';
             break;
+        
+        case 'login':
+            include_once 'site/paginas/includes/header.php';
+            include_once 'site/paginas/includes/menus.php';
+            include_once 'painel/paginas/acesso/login.php';
+            include_once 'site/paginas/includes/footer.php';
+            break;
 
 
 
@@ -194,8 +194,8 @@ if ($pg) {
 //não existe   
     include_once 'site/paginas/includes/header.php';
     include_once 'site/paginas/includes/menus.php';
-    include_once 'site/paginas/erro.php';
-    include_once 'site/paginas/includes/footer.php';
+    include_once 'site/paginas/pagina-cards.php';
+    include_once 'site / paginas / includes / footer . php';
 }
 
 

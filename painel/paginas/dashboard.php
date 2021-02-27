@@ -29,7 +29,7 @@
                                 <img src="painel/assets/img/admin.jpg" class="img-circle elevation-2" alt="User Image">
                             </div>
                             <div class="card-body">
-                                <h2><a href="?pg=dashboard" class="nav-link  text-dark text-right">Home</a></h2>
+                                <h2><a href="?pg=inicial" class="nav-link  text-dark text-right">Home</a></h2>
                                 
                             </div>
                         </div>
@@ -52,6 +52,17 @@
                             </div>
                             <div class="card-body">
                                 <h2><a href="?pg=tabela-artigo" class="nav-link  text-dark text-right">Validação de Artigos</a></h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="image">
+                                <img src="painel/assets/img/check.jpg" class="img-circle elevation-2" alt="User Image">
+                            </div>
+                            <div class="card-body">
+                                <h2><a href="?pg=tabela-artigo" class="nav-link  text-dark text-right">Artigos Validados</a></h2>
                                 
                             </div>
                         </div>

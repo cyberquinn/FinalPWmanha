@@ -21,7 +21,7 @@ if ($pg) {
             break;
 
         case 'dashboard':
-            //P·gina inicial do Painel Adm           
+            //PÔøΩgina inicial do Painel Adm           
             if (verificarLogin()) {
 
                 include_once 'painel/paginas/includes/header.php';
@@ -30,12 +30,18 @@ if ($pg) {
                 include_once 'painel/paginas/includes/footer.php';
                 break;
             } else {
-                    include_once './site/paginas/includes/header.php';
-                    include_once './site/paginas/includes/menus.php';
-                    include_once 'painel/paginas/acesso/erroSenha.php';
-                    include_once './site/paginas/includes/footer.php';
-                    
+                include_once './site/paginas/includes/header.php';
+                include_once './site/paginas/includes/menus.php';
+                include_once 'painel/paginas/acesso/erroSenha.php';
+                include_once './site/paginas/includes/footer.php';
             }
+            break;
+
+        case 'inicial':
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/dashboard.php';
+            include_once 'painel/paginas/includes/footer.php';
             break;
 
         case 'tabela-artigo':
@@ -45,13 +51,26 @@ if ($pg) {
             include_once 'painel/paginas/includes/footer.php';
             break;
 
-        case 'validar-artigo':
-            $id = $_GET ['id'];
-
-            $resultDados = new conexao();
-            $dados = $resultDados->selecionaDados('SELECT *  FROM facavocemesmo WHERE id = ' . $id);
+        case 'tabela-artigos-validados':
             include_once 'painel/paginas/includes/header.php';
             include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/artigos-validados.php';
+            include_once 'painel/paginas/includes/footer.php';
+            break;
+
+        case 'artigos-validados':
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+            include_once 'painel/paginas/visualizar-validados.php';
+            include_once 'painel/paginas/includes/footer.php';
+            break;
+
+        case 'validar-artigo':
+            $resultDados = new Conexao();
+            $dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
+            include_once 'painel/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/menus.php';
+
             if ($_SERVER ['REQUEST_METHOD'] == 'POST') {
 //                pegando variaveis via post
                 $categoria = $_POST ['categoria'];
@@ -82,7 +101,7 @@ if ($pg) {
                 );
                 $resultDados = new conexao();
                 $resultDados->intervencaoNoBanco('INSERT INTO '
-                        . 'facavocemesmo ('
+                        . 'arquivosvalidados ('
                         . 'categoria, usuario, titulo, '
                         . 'sobrenome, nome, email, '
                         . 'curso, instituicao, linkVideo, '
@@ -93,7 +112,7 @@ if ($pg) {
                         . ':curso, :instituicao, :linkVideo, '
                         . ':linkImagem, :artigo)', $parametros);
 
-                include_once 'painel/paginas/validar-artigo.php';
+                include_once 'painel/paginas/artigos-validados.php';
             } else {
 
                 include_once 'painel/paginas/pagina-validar-artigo.php';
@@ -143,10 +162,9 @@ if ($pg) {
     }
 } else {
 //n√£o existe   
-    include_once 'site/paginas/includes/header.php';
-    include_once 'site/paginas/includes/menus.php';
-    include_once 'site/paginas/includes/erro.php';
-    include_once 'site/paginas/includes/footer.php';
-    
+    include_once 'painel/paginas/includes/header.php';
+    include_once 'painel/paginas/includes/menus.php';
+    include_once 'painel/paginas/acesso/erroSenha.php';
+    include_once 'painel/paginas/includes/footer.php';
 }
 

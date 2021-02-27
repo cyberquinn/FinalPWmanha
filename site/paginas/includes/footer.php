@@ -6,7 +6,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="footer-blog">
                         <h3>Senac: </h3>
-                        <p>Instituição de educação profissional aberta a toda a sociedade, com a missão de desenvolver pessoas e organizações para o
+                        <p class="footerp">Instituição de educação profissional aberta a toda a sociedade, com a missão de desenvolver pessoas e organizações para o
                   mundo do trabalho. O Serviço Nacional de Aprendizagem Comercial – Senac, pessoa jurídica de direito privado, sem fins 
                   lucrativos, foi criado pelo Decreto-lei nº 8.621 de 10 de janeiro de 1946. Neste mesmo ano, foi fundado também seu 
                   Departamento Regional de Pernambuco, instalado em 14 de outubro.

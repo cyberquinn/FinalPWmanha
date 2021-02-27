@@ -11,4 +11,7 @@ and open the template in the editor.
 #cor-de-input-preto input{
     color: black;
 }
+#cor-de-input-preto textarea{
+    color: black;
+}
 
