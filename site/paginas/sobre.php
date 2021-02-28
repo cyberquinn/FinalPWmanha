@@ -19,7 +19,7 @@
                             <h2>Sala de Estudos Intertiva</h2> 
                         </div>
                         <div class="card-body pt-0">
-                            A sala de estudos tem o intuito de trazer um ambiente interativo somando as experiências dos alunos em meios acadêmicos em forma de artigos e ilustrações, destarte, deixando um espaço confortável para afins de estudos, mesclando o conhecimento de cada usuário em um painel diverso de ideais feita por quem deseja partilhar seus princípios de forma teórica. Sendo assim, criando uma “biblioteca interativa�?.
+                            A sala de estudos tem o intuito de trazer um ambiente interativo somando as experiências dos alunos em meios acadêmicos em forma de artigos e ilustrações, destarte, deixando um espaço confortável para afins de estudos, mesclando o conhecimento de cada usuário em um painel diverso de ideais feita por quem deseja partilhar seus princípios de forma teórica. Sendo assim, criando uma “biblioteca interativa“.
 
                         </div>
                         <div class="card-footer">
@@ -440,24 +440,16 @@
                             <h2>Agradecimentos</h2> 
                         </div>
                         <div class="card-body pt-0">
+                            <br/>
+                            
                             Ao Professor Reginaldo, 
                             <br />
-                            Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, 
-                            sentado sem cochilar e fazendo pose. Viva Forevis aptent taciti sociosqu ad litora torquent. 
-                            Cevadis im ampola pa arma uma pindureta. Praesent vel viverra nisi. Mauris aliquet nunc non turpis
-                            scelerisque, eget.
-                            <br />
-                            Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, 
-                            sentado sem cochilar e fazendo pose. Viva Forevis aptent taciti sociosqu ad litora torquent. 
-                            Cevadis im ampola pa arma uma pindureta. Praesent vel viverra nisi. Mauris aliquet nunc non turpis
-                            scelerisque, eget.
+                            por seu profissionalismo,  conselhos e direcionamentos certeiros e paciência infinita em nossos momentos difíceis nesses três meses de curso. Com essa bagagem de conhecimento, nos sentimos mais seguros para entrar no mercado de trabalho de TI e fazer a diferença nesta área de suma importância para o desenvolvimento da sociedade atual.                    
                             <br />
                             <br />
-                            Ao SENAC PE,
+                            Somos gratos e gratas ao SENAC SENAC PE,
                             <br />
-                            A ordem dos tratores não altera o pão duris. Suco de cevadiss, é um leite divinis, qui tem lupuliz, 
-                            matis, aguis e fermentis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam 
-                            vulputate dapibus. Suco de cevadiss deixa as pessoas mais interessantis.
+                           por abrir o PSG (Programa Senac de Gratuidade) e nos proporcionar a oportunidade de ingressar neste curso, aprender, desenvolver habilidades, crescer como profissionais e como pessoas que este mundo tanto necessita.
                         </div>
                         <div class="card-footer">
 
