@@ -196,7 +196,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong>Programador Web, Admnistradora de empresas.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Viajante e entusiasta por novas tecnologias.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span>E-mail:</strong> fariasjulianaalves@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -204,6 +204,8 @@
                                     <img src="site/assets/img/juh.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>fariasjulianaalves@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -227,14 +229,17 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web, Redes de Computadores.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong>  Um sonho é apenas o início de tudo.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> kagahobenu1337@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
                                 <div class="col-5 text-center">
                                     <img src="site/assets/img/julio.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
+                                
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>kagahobenu1337@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -257,7 +262,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos: </strong>  Programador Web, Psicóloga, Mestra em Psicologia clínica.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Entusiasta a programadora web e Geek nas horas vagas.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong>  lauravalencaarruda@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -265,6 +270,8 @@
                                     <img src="site/assets/img/laura1.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>lauravalencaarruda@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -296,6 +303,7 @@
                                     <img src="site/assets/img/oliver.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -319,14 +327,15 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Técnico em desenvolvimento de sistemas, Web programador e diretor de Recursos Humanos no programa miniempresa Junior Achievement.</p>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Fan-dublador, jovem cheio de sonhos e louco por desafios e youtuber.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong>  Pedrotavaresbol1@gmail.com</li>
-
+                                        
                                     </ul>
                                 </div>
                                 <div class="col-5 text-center">
                                     <img src="site/assets/img/pedro.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>Pedrotavaresbol1@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -359,6 +368,8 @@
                                     <img src="site/assets/img/semiramis.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>webdesigncavalcanti@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -388,6 +399,7 @@
                                 <div class="col-5 text-center">
                                     <img src="site/assets/img/vini.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
+                                
                             </div>
                         </div>
                         <div class="card-footer">
