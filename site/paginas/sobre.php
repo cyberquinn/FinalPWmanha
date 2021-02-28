@@ -101,7 +101,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong>Programador Web, Manutenção e montagem de micro.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Uma aprendiz eterna.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span>E-mail:</strong> emanuelasouzs@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -109,6 +109,9 @@
                                     <img src="site/assets/img/manu1.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                             <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>emanuelasouzs@gmail.com</p>
+                            
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -133,7 +136,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web, Admnistração de empresas e Design gráfico.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Jovem Aventureiro com sede de conhecimento e amante da tecnologia.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong><br>gebsonjr2@outlook.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -141,6 +144,8 @@
                                     <img src="site/assets/img/geb.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                             <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>gebsonjr2@outlook.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -165,8 +170,7 @@
                                     <h2 class="lead"><b>Hermes Galvão</b></h2>
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Viajante e entusiasta por novas tecnologias.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> hermesbraf@gmail.com</li>
+                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Viajante e entusiasta por novas tecnologias.</li>                                      
 
                                     </ul>
                                 </div>
@@ -174,6 +178,8 @@
                                     <img src="site/assets/img/hermes.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>hermesbraf@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -294,8 +300,7 @@
                                     <h2 class="lead"><b>Oliver Pontes</b></h2>
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong>  Programador Web, escritor.</p>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre: </strong> Não satisfeito com as figuras de linguagem impregnadas em meus textos, procurei a metáfora dos códigos para ressignificar as lacunas do meu eu escritor.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> oliverrpontes@gmail.com</li>
+                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre: </strong> Não satisfeito com as figuras de linguagem impregnadas em meus textos, procurei a metáfora dos códigos para ressignificar as lacunas do meu eu escritor.</li>                                       
 
                                     </ul>
                                 </div>
@@ -303,7 +308,8 @@
                                     <img src="site/assets/img/oliver.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
-                            
+                            <br>
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>oliverrpontes@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -392,7 +398,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Um jovem cheio de sonhos. </li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong>  vinicius08anos@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -400,7 +406,9 @@
                                     <img src="site/assets/img/vini.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                                 
-                            </div>
+                            </div>                         
+                            
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>vinicius08anos@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
