@@ -1,6 +1,6 @@
 <?php
 $resultDados = new Conexao();
-$dados = $resultDados->selecionaDados('SELECT * FROM arquivosvalidados');
+$dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
 ?>
 
 <h1 class="text-center mt-5 mb-3 text-bold">ARTIGOS DOS NOSSOS COLABORADORES</h1> 

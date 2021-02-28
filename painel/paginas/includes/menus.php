@@ -13,11 +13,8 @@
                 <h4><a href="?pg=painel-contato" class="nav-link">Contato</a></h4>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-               <h4> <a href="?pg=tabela-artigo" class="nav-link">Solicitação dos Artigos</a></h4>
-            </li>
-            <li class="nav-item d-none d-sm-inline-block">
-               <h4> <a href="?pg=tabela-artigos-validados" class="nav-link"> Artigos Validados</a></h4>
-            </li>
+               <h4> <a href="?pg=tabela-artigo" class="nav-link">Artigos Inseridos</a></h4>
+            </li> 
             <li class="nav-item d-none d-sm-inline-block">
               <h4> <a href="index.php?pg=inicial" class="nav-link text-left text-right">Sair</a></h4> 
             </li>

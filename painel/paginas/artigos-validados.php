@@ -10,7 +10,7 @@ $dados = $resultDados->selecionaDados('SELECT * FROM arquivosvalidados');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Solicitação de Validação de Artigos </h1>
+                    <h1 class="m-0">Artigos Validados </h1>
                 </div><!-- /.col -->
 
             </div><!-- /.row -->
@@ -42,9 +42,9 @@ $dados = $resultDados->selecionaDados('SELECT * FROM arquivosvalidados');
                                     ?>
                                     <tr>
                                         <td class="text-center"><?php echo $dado ['id']; ?></td>
-                                        <td class="text-center"><?php echo $dado ['titulo']; ?></td>
-                                        <td class="text-center"><?php echo $dado ['categoria']; ?></td>
-                                        <td class="text-center"><?php echo $dado ['nome']; ?></td>
+                                        <td class="text-center"><?php echo $dado ['titulos']; ?></td>
+                                        <td class="text-center"><?php echo $dado ['categorias']; ?></td>
+                                        <td class="text-center"><?php echo $dado ['nomes']; ?></td>
                                         <td class="text-center">
                                             <!--vizualiza-->
                                             <a href="?pg=artigos-validados&id=<?php echo $dado['id']; ?>" class="btn btn-success"><span class="fa fa-eye"></span></a>

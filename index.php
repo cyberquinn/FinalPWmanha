@@ -32,7 +32,7 @@ if ($pg) {
         case 'pagina-artigos':
 
             $resultDados = new conexao();
-            $dados = $resultDados->selecionaDados('SELECT *  FROM arquivosvalidados');
+            $dados = $resultDados->selecionaDados('SELECT *  FROM facavocemesmo');
             include_once 'site/paginas/includes/header.php';
             include_once 'site/paginas/includes/menus.php';
             include_once 'site/paginas/pagina-artigos.php';
@@ -143,7 +143,7 @@ if ($pg) {
         case 'artigos-validados':
             $resultDados = new conexao ();
             $dados = $resultDados->selecionaDados('SELECT * FROM arquivosvalidados');
-            include_once 'site/paginas/includes/header.php';
+            include_once 'painel/paginas/includes/header.php';
 
             include_once 'painel/paginas/artigos-validados.php';
 

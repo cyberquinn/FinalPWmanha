@@ -1,6 +1,6 @@
 <?php
 $resultDados = new Conexao();
-$dados = $resultDados->selecionaDados('SELECT * FROM arquivosvalidados');
+$dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
 ?>
 <div class="paginacards">
     <div class="container" style="background-color: white">

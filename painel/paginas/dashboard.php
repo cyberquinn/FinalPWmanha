@@ -51,8 +51,8 @@
                                 <img src="painel/assets/img/check.jpg" class="img-circle elevation-2" alt="User Image">
                             </div>
                             <div class="card-body">
-                                <h2><a href="?pg=tabela-artigo" class="nav-link  text-dark text-right">Validação de Artigos</a></h2>
-                                
+                                <h2><a href="?pg=tabela-artigo" class="nav-link  text-dark text-left">Solicitação de Artigos</a></h2>
+                                <h5>- Em breve  -</h5>
                             </div>
                         </div>
                     </div>
@@ -62,8 +62,8 @@
                                 <img src="painel/assets/img/check.jpg" class="img-circle elevation-2" alt="User Image">
                             </div>
                             <div class="card-body">
-                                <h2><a href="?pg=tabela-artigo" class="nav-link  text-dark text-right">Artigos Validados</a></h2>
-                                
+                                <h2><a href="?pg=tabela-artigos-validados" class="nav-link  text-dark text-left">Artigos Validados</a></h2>
+                                <h5>- Em breve  -</h5>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                                 <img src="painel/assets/img/usuario.jpg" class="img-circle elevation-2" alt="User Image">
                             </div>
                             <div class="card-body">
-                                <h2><a href="" class="nav-link  text-dark text-center">Usuários</a></h2>
+                                <h2><a href="" class="nav-link  text-dark text-left">Usuários</a></h2>
                                 <h5>- Em breve  -</h5>
                             </div>
                         </div>
