@@ -87,3 +87,11 @@ foreach ($dados as $dado) {
                 <textarea class="form-control" id="msg" rows="10" disabled=""><?php echo $dado['artigo']; ?></textarea>
             </div>
         </div>
+        
+        
+        <a href="?pg=tabela-artigos-validados"><button type="submit" class="btn btn-primary btn-block"></i> Voltar Tabela Artigos Validados </button></a>
+
+    </div>  
+  
+
+<br />
