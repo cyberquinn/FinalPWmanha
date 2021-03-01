@@ -114,12 +114,10 @@
                             
                         </div>
                         <div class="card-footer">
-                            <div class="text-right mr-auto">
-                                <a href="https://linkedin.com/in/gebson-ferreira-24030b1a4"><span class="reg-linkedin"></span></a>
-                                <a href="https://github.com/gebsonn"target="_blank"><span class="reg-github"></span></a>
-                                <a href="https://instagram.com/gebb_j"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="https://codepen.io/jupatrick-DEV"target="_blank"><span class="reg-codepen"></span></a>
-
+                            <div class="text-right mr-auto">               
+                                 <a href="https://codepen.io/emmanuela2m"target="_blank"><span class="reg-linkedin"></span></a>
+                                <a href="https://github.com/emmanuela2m"target="_blank"><span class="reg-github"></span></a>
+                                <a href="https://instagram.com/emmanuela2m"target="_blank"><span class="reg-instagram"></span></a>
                             </div>
                         </div>
                     </div>
@@ -149,11 +147,10 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="https://codepen.io/emmanuela2m"target="_blank"><span class="reg-linkedin"></span></a>
-                                <a href="https://github.com/emmanuela2m"target="_blank"><span class="reg-github"></span></a>
-                                <a href="https://instagram.com/emmanuela2m"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="https://codepen.io/jupatrick-DEV"target="_blank"><span class="reg-codepen"></span></a>
-
+                            <a href="https://linkedin.com/in/gebson-ferreira-24030b1a4"><span class="reg-linkedin"></span></a>
+                                <a href="https://github.com/gebsonn"target="_blank"><span class="reg-github"></span></a>
+                                <a href="https://instagram.com/gebb_j"target="_blank"><span class="reg-instagram"></span></a>
+                        
                             </div>
                         </div>
                     </div>
@@ -183,10 +180,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="https://codepen.io/emmanuela2m"target="_blank"><span class="reg-linkedin"></span></a>
-                                <a href="https://github.com/emmanuela2m"target="_blank"><span class="reg-github"></span></a>
-                                <a href="https://instagram.com/emmanuela2m"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="https://codepen.io/jupatrick-DEV"target="_blank"><span class="reg-codepen"></span></a>
+                          
 
                             </div>
                         </div>
@@ -215,9 +209,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="https://codepen.io/emmanuela2m"target="_blank"><span class="reg-linkedin"></span></a>
-                                <a href="https://github.com/emmanuela2m"target="_blank"><span class="reg-github"></span></a>
-                                <a href="https://instagram.com/emmanuela2m"target="_blank"><span class="reg-instagram"></span></a>
+                     
                                 <a href="https://codepen.io/jupatrick-DEV"target="_blank"><span class="reg-codepen"></span></a>
 
                             </div>
@@ -249,10 +241,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="https://codepen.io/emmanuela2m"target="_blank"><span class="reg-linkedin"></span></a>
-                                <a href="https://github.com/emmanuela2m"target="_blank"><span class="reg-github"></span></a>
-                                <a href="https://instagram.com/emmanuela2m"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="https://codepen.io/jupatrick-DEV"target="_blank"><span class="reg-codepen"></span></a>
+                      
 
                             </div>
                         </div>
@@ -284,7 +273,7 @@
                                 <a href="https://linkedin.com/in/laura-arruda-recife"target="_blank"><span class="reg-linkedin"></span></a>
                                 <a href="https://github.com/cyberquinn"target="_blank"><span class="reg-github"></span></a>
                                 <a href="https://instagram.com/laurinha.v.a"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="#"target="_blank"><span class="reg-codepen"></span></a>
+                              
 
                             </div>
                         </div>
@@ -313,7 +302,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="#"target="_blank"><span class="reg-linkedin"></span></a>
+                               
                                 <a href="https://github.com/liverpntes"target="_blank"><span class="reg-github"></span></a>
                                 <a href="https://instagram.com/oliverpntes"target="_blank"><span class="reg-instagram"></span></a>
                                 <a href="https://codepen.io/oliverpontes"target="_blank"><span class="reg-codepen"></span></a>
@@ -345,10 +334,10 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="#"target="_blank"><span class="reg-linkedin"></span></a>
+                                
                                 <a href="https://github.com/Pedro-Silva029"target="_blank"><span class="reg-github"></span></a>
                                 <a href="https://instagram.com/Vitinho_Tavares_013"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="#"target="_blank"><span class="reg-codepen"></span></a>
+                                
 
                             </div>
                         </div>
@@ -365,7 +354,7 @@
                                     <h2 class="lead"><b>Semiramis Cavalcainti</b></h2>
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web, Design Web, Graduação em Gastronomia.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Um jovem cheio de sonhos. </li>
+                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Apaixonada por conhecimento e amante da sabedoria busco superar a mim mesma dos limites da vida. </li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> webdesigncavalcanti@gmail.com</li>
 
                                     </ul>
@@ -375,11 +364,11 @@
                                 </div>
                             </div>
                             <br>
-                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>webdesigncavalcanti@gmail.com</p>
+                            <p class="text-muted text-sm"><b><span class="reg-earth"></span> Site: </b>cavalcanti.movimentoweb.com.br</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="#"target="_blank"><span class="reg-linkedin"></span></a>
+                                <a href="https://br.linkedin.com/public-profile/in/semiramis-cavalcanti-01a18013b?challengeId=AQFAfRI49fURKAAAAXfrVbzRtSRhZ7uabalKh66vGDxVGed5qDDANuJt6DiK2Bp1I0xvgGnSyBnpfrDCy6F402vrIDsbAbgrsg&submissionId=a31bd8ea-ac12-6816-18b4-623ad1d1c436"target="_blank"><span class="reg-linkedin"></span></a>
                                 <a href="https://github.com/SemiramisCavalcanti"target="_blank"><span class="reg-github"></span></a>
                                 <a href="https://www.instagram.com/sessecavalcanti"target="_blank"><span class="reg-instagram"></span></a>
                                 <a href="https://codepen.io/semiramiscavalcanti"target="_blank"><span class="reg-codepen"></span></a>
@@ -412,10 +401,10 @@
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
-                                <a href="#"target="_blank"><span class="reg-linkedin"></span></a>
+                              
                                 <a href="https://github.com/vancucks"target="_blank"><span class="reg-github"></span></a>
                                 <a href="https://instagram.com/van_cucks"target="_blank"><span class="reg-instagram"></span></a>
-                                <a href="#"target="_blank"><span class="reg-codepen"></span></a>
+                             
 
                             </div>
                         </div>
@@ -444,12 +433,19 @@
                             
                             Ao Professor Reginaldo, 
                             <br />
-                            por seu profissionalismo,  conselhos e direcionamentos certeiros e paciência infinita em nossos momentos difíceis nesses três meses de curso. Com essa bagagem de conhecimento, nos sentimos mais seguros para entrar no mercado de trabalho de TI e fazer a diferença nesta área de suma importância para o desenvolvimento da sociedade atual.                    
+                            agradecemos por seu profissionalismo, conselhos, direcionamentos e paciência infinita nos momentos de aprendizagem
+                            destes três meses de curso. Sua leveza em tratar do conhecimento, e a facilidade com o desenvolver do assunto,
+                            motivou-nos para o começo de uma grande jornada e a almejarmos projetos incriveis. Assim queremos que saiba
+                            o quão importante foi e é, o teu acreditar em nós; Pois esta nova bagagem de conhecimento, 
+                            nos trás o sentimento de segurança para o mercado 
+                            de trabalho como Programadores, deixando nossa marca no desenvolvimento da atual sociedade.                    
                             <br />
                             <br />
-                            Somos gratos e gratas ao SENAC SENAC PE,
+                            E ao SENAC PE,
                             <br />
-                           por abrir o PSG (Programa Senac de Gratuidade) e nos proporcionar a oportunidade de ingressar neste curso, aprender, desenvolver habilidades, crescer como profissionais e como pessoas que este mundo tanto necessita.
+                           agradecemos a disponibilização do curso pelo PSG (Programa Senac de Gratuidade), do aprendizado, do desenvolver das
+                           habilidades de programação, pois  estas nos trouxe a oportunidade de nos 
+                           inserirmos no mercado de trabalho como programadores.
                         </div>
                         <div class="card-footer">
 
