@@ -19,7 +19,7 @@
                             <h2>Sala de Estudos Intertiva</h2> 
                         </div>
                         <div class="card-body pt-0">
-                            A sala de estudos tem o intuito de trazer um ambiente interativo somando as experiências dos alunos em meios acadêmicos em forma de artigos e ilustrações, destarte, deixando um espaço confortável para afins de estudos, mesclando o conhecimento de cada usuário em um painel diverso de ideais feita por quem deseja partilhar seus princípios de forma teórica. Sendo assim, criando uma “biblioteca interativa�?.
+                            A sala de estudos tem o intuito de trazer um ambiente interativo somando as experiências dos alunos em meios acadêmicos em forma de artigos e ilustrações, destarte, deixando um espaço confortável para afins de estudos, mesclando o conhecimento de cada usuário em um painel diverso de ideais feita por quem deseja partilhar seus princípios de forma teórica. Sendo assim, criando uma “biblioteca interativa“.
 
                         </div>
                         <div class="card-footer">
@@ -101,7 +101,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong>Programador Web, Manutenção e montagem de micro.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Uma aprendiz eterna.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span>E-mail:</strong> emanuelasouzs@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -109,6 +109,9 @@
                                     <img src="site/assets/img/manu1.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                             <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>emanuelasouzs@gmail.com</p>
+                            
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -133,7 +136,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web, Admnistração de empresas e Design gráfico.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Jovem Aventureiro com sede de conhecimento e amante da tecnologia.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong><br>gebsonjr2@outlook.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -141,6 +144,8 @@
                                     <img src="site/assets/img/geb.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                             <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>gebsonjr2@outlook.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -165,8 +170,7 @@
                                     <h2 class="lead"><b>Hermes Galvão</b></h2>
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Viajante e entusiasta por novas tecnologias.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> hermesbraf@gmail.com</li>
+                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Viajante e entusiasta por novas tecnologias.</li>                                      
 
                                     </ul>
                                 </div>
@@ -174,6 +178,8 @@
                                     <img src="site/assets/img/hermes.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>hermesbraf@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -196,7 +202,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong>Programador Web, Admnistradora de empresas.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Viajante e entusiasta por novas tecnologias.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span>E-mail:</strong> fariasjulianaalves@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -204,6 +210,8 @@
                                     <img src="site/assets/img/juh.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>fariasjulianaalves@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -227,14 +235,17 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web, Redes de Computadores.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong>  Um sonho é apenas o início de tudo.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> kagahobenu1337@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
                                 <div class="col-5 text-center">
                                     <img src="site/assets/img/julio.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
+                                
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>kagahobenu1337@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -257,7 +268,7 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos: </strong>  Programador Web, Psicóloga, Mestra em Psicologia clínica.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Entusiasta a programadora web e Geek nas horas vagas.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong>  lauravalencaarruda@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
@@ -265,6 +276,8 @@
                                     <img src="site/assets/img/laura1.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>lauravalencaarruda@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -287,8 +300,7 @@
                                     <h2 class="lead"><b>Oliver Pontes</b></h2>
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong>  Programador Web, escritor.</p>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre: </strong> Não satisfeito com as figuras de linguagem impregnadas em meus textos, procurei a metáfora dos códigos para ressignificar as lacunas do meu eu escritor.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong> oliverrpontes@gmail.com</li>
+                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre: </strong> Não satisfeito com as figuras de linguagem impregnadas em meus textos, procurei a metáfora dos códigos para ressignificar as lacunas do meu eu escritor.</li>                                       
 
                                     </ul>
                                 </div>
@@ -296,6 +308,8 @@
                                     <img src="site/assets/img/oliver.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>oliverrpontes@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -319,14 +333,15 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Técnico em desenvolvimento de sistemas, Web programador e diretor de Recursos Humanos no programa miniempresa Junior Achievement.</p>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Fan-dublador, jovem cheio de sonhos e louco por desafios e youtuber.</li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong>  Pedrotavaresbol1@gmail.com</li>
-
+                                        
                                     </ul>
                                 </div>
                                 <div class="col-5 text-center">
                                     <img src="site/assets/img/pedro.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>Pedrotavaresbol1@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -359,6 +374,8 @@
                                     <img src="site/assets/img/semiramis.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
                             </div>
+                            <br>
+                            <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>webdesigncavalcanti@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -381,14 +398,17 @@
                                     <ul class="ml-auto mb-0 fa-ul text-muted">
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-office"></i></span> Cursos:</strong> Programador Web.</li>
                                         <li class="small"><br><strong><span class="fa-li"><i class="reg-arrow-right-alt1"></i></span> Sobre:</strong> Um jovem cheio de sonhos. </li>
-                                        <li class="small"><br><strong><span class="fa-li"><i class="reg-mail1"></i></span> E-mail:</strong>  vinicius08anos@gmail.com</li>
+                                        
 
                                     </ul>
                                 </div>
                                 <div class="col-5 text-center">
                                     <img src="site/assets/img/vini.jpeg" alt="user-avatar" class="img-circle img-fluid mt-4">
                                 </div>
-                            </div>
+                                
+                            </div>                         
+                            
+                             <p class="text-muted text-sm"><b><span class="reg-office"></span> Email: </b>vinicius08anos@gmail.com</p>
                         </div>
                         <div class="card-footer">
                             <div class="text-right mr-auto">
@@ -401,8 +421,6 @@
                         </div>
                     </div>
                 </div>
-
-
 
 
 
@@ -422,24 +440,16 @@
                             <h2>Agradecimentos</h2> 
                         </div>
                         <div class="card-body pt-0">
+                            <br/>
+                            
                             Ao Professor Reginaldo, 
                             <br />
-                            Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, 
-                            sentado sem cochilar e fazendo pose. Viva Forevis aptent taciti sociosqu ad litora torquent. 
-                            Cevadis im ampola pa arma uma pindureta. Praesent vel viverra nisi. Mauris aliquet nunc non turpis
-                            scelerisque, eget.
-                            <br />
-                            Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, 
-                            sentado sem cochilar e fazendo pose. Viva Forevis aptent taciti sociosqu ad litora torquent. 
-                            Cevadis im ampola pa arma uma pindureta. Praesent vel viverra nisi. Mauris aliquet nunc non turpis
-                            scelerisque, eget.
+                            por seu profissionalismo,  conselhos e direcionamentos certeiros e paciência infinita em nossos momentos difíceis nesses três meses de curso. Com essa bagagem de conhecimento, nos sentimos mais seguros para entrar no mercado de trabalho de TI e fazer a diferença nesta área de suma importância para o desenvolvimento da sociedade atual.                    
                             <br />
                             <br />
-                            Ao SENAC PE,
+                            Somos gratos e gratas ao SENAC SENAC PE,
                             <br />
-                            A ordem dos tratores não altera o pão duris. Suco de cevadiss, é um leite divinis, qui tem lupuliz, 
-                            matis, aguis e fermentis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam 
-                            vulputate dapibus. Suco de cevadiss deixa as pessoas mais interessantis.
+                           por abrir o PSG (Programa Senac de Gratuidade) e nos proporcionar a oportunidade de ingressar neste curso, aprender, desenvolver habilidades, crescer como profissionais e como pessoas que este mundo tanto necessita.
                         </div>
                         <div class="card-footer">
 
