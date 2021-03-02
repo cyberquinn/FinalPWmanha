@@ -29,16 +29,22 @@
         <link rel="stylesheet" href="site/plugins/blog-footer-template/dist/style.css">
         <!--fim p. footer-->    
         <!-- icomoon -->
-        <link rel="stylesheet" href="site/plugins/icomoon/icomoon.css" />   
+        <link rel="stylesheet" href="../../site/plugins/icomoon/icomoon.css" />   
+        <link rel="stylesheet" href="../../site/plugins/icomoon/style.css" />   
         <!--Estilo Header contato Juliana-->
         <!--Meu css-->
         <link rel="stylesheet" href="site/assets/css/estilo-contato.css" />
-        <!--icomoon-->
-        <link rel="stylesheet" href="site/plugins/icomoon/style.css"/>
+        
         <!-- icheck bootstrap -->
         <link rel="stylesheet" href="painel/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="site/plugins/fontawesome-free/css/all.min.css">
+        
+        <!--link do footer-->
+        <link rel="stylesheet" href="site/assets/css/footer.css" />
+        
+        <!--link Botao TOP-->
+        <link rel="stylesheet" href="assets/css/btnTOPO.css" />
     </head>
     <body>
 

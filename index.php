@@ -3,9 +3,6 @@
 include_once 'painel/bd/conexao.php';
 include_once 'painel/helper/funcoes.php';
 
-
-
-
 $pg = isset($_GET['pg']);
 
 if ($pg) {
@@ -42,7 +39,6 @@ if ($pg) {
             include_once 'site/paginas/includes/footer.php';
 
             break;
-
 
 //        Responsável Juliana
         case 'contato':
@@ -134,13 +130,6 @@ if ($pg) {
 
             break;
 
-        case 'login':
-            include_once 'site/paginas/includes/header.php';
-            include_once 'site/paginas/includes/menus.php';
-            include_once 'painel/paginas/acesso/login.php';
-            include_once 'site/paginas/includes/footer.php';
-            break;
-
         case 'validar-artigo':
             $resultDados = new conexao ();
             $dados = $resultDados->selecionaDados('SELECT * FROM facavocemesmo');
@@ -150,7 +139,16 @@ if ($pg) {
 
 
             break;
+        
+        case 'artigos-validados':
+            $resultDados = new conexao ();
+            $dados = $resultDados->selecionaDados('SELECT * FROM arquivosvalidados');
+            include_once 'painel/paginas/includes/header.php';
 
+            include_once 'painel/paginas/artigos-validados.php';
+
+
+            break;
 
 //        Responsavel Hermes
         case 'pesquisar':
@@ -176,6 +174,13 @@ if ($pg) {
             include_once 'site/paginas/result-pesquisar.php';
             include_once 'site/paginas/includes/footer.php';
             break;
+        
+        case 'login':
+            include_once 'site/paginas/includes/header.php';
+            include_once 'site/paginas/includes/menus.php';
+            include_once 'painel/paginas/acesso/login.php';
+            include_once 'site/paginas/includes/footer.php';
+            break;
 
 
 
@@ -193,7 +198,7 @@ if ($pg) {
 //não existe   
     include_once 'site/paginas/includes/header.php';
     include_once 'site/paginas/includes/menus.php';
-    include_once 'site/paginas/erro.php';
+    include_once 'site/paginas/pagina-cards.php';
     include_once 'site/paginas/includes/footer.php';
 }
 
